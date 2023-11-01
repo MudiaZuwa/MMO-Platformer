@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas></canvas>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script>
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyA1xwslEMg6vXvhDzIqmRupi-rs47bbgb4",
+        authDomain: "lisy-400ef.firebaseapp.com",
+        databaseURL: "https://lisy-400ef-default-rtdb.firebaseio.com",
+        projectId: "lisy-400ef",
+        storageBucket: "lisy-400ef.appspot.com",
+        messagingSenderId: "428620119966",
+        appId: "1:428620119966:web:7d7583a158fbdb66eb608f",
+        measurementId: "G-F14BNR9EJD"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/data/collisions.js"></script>
+    <script src="js/classes/CollisionBlock.js"></script>
+    <script src="js/classes/Sprite.js"></script>
+    <script src="js/classes//player.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/data/Players.js"></script>
+    <script src="js/eventListener.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
